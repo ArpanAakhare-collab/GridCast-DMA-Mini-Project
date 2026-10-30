@@ -1,0 +1,28 @@
+{
+  "input_file": "sample_daily_consumption.csv",
+  "dataset_metadata": {
+    "source_type": "prepared daily time series",
+    "source_rows": 1826,
+    "daily_rows_before_gap_handling": 1826,
+    "missing_power_values": 0,
+    "coverage_threshold": 0.9,
+    "energy_method": "daily values imported from 'consumption_kwh' without unit conversion; ensure values are daily kWh",
+    "date_start": "2019-01-01",
+    "date_end": "2023-12-31",
+    "daily_days": 1826,
+    "missing_days_filled_or_interpolated": 0,
+    "mean_daily_kwh": 21.327997261774367,
+    "median_daily_kwh": 21.2265,
+    "max_daily_kwh": 29.709,
+    "min_daily_kwh": 13.071
+  },
+  "summary": {
+    "observations": 1826,
+    "mean_daily_kwh": 21.327997261774367,
+    "peak_daily_kwh": 29.709,
+    "latest_daily_kwh": 24.311,
+    "recent_vs_previous_30d_pct": 1.179450345896517,
+    "weekly_mean_kwh": 21.325277504105088
+  },
+  "best_holdout_model": "ARIMA(2,1,2)"
+}
